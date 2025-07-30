@@ -1,34 +1,50 @@
 const Report = require('../models/Report');
-const fs = require('fs');
 const logger = require('../utils/logger');
+const cloudinary = require('cloudinary').v2;
+const streamifier = require('streamifier');
+
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET
+});
 
 exports.createReport = async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ error: 'Please upload an image' });
     }
+    const uploadFromBuffer = (buffer) =>
+      new Promise((resolve, reject) => {
+        const stream = cloudinary.uploader.upload_stream(
+          { folder: 'reports' },
+          (error, result) => {
+            if (error) return reject(error);
+            resolve(result);
+          }
+        );
+        streamifier.createReadStream(buffer).pipe(stream);
+      });
+
+    const result = await uploadFromBuffer(req.file.buffer);
 
     const report = new Report({
       user: req.user.id,
       location: req.body.location,
       landmark: req.body.landmark,
       description: req.body.description,
-      photo: req.file.path.replace(/^.*[\\\/]uploads[\\\/]/, 'uploads/').replace(/\\/g, '/'),
-      status: 'Pending',
+      photo: result.secure_url, 
+      status: 'Pending'
     });
 
     await report.save();
 
     logger.info(`New report created by user ${req.user.id}`);
     return res.status(201).json(report);
+
   } catch (err) {
-    // Clean up uploaded file if error occurs
-    if (req.file) {
-      fs.unlink(req.file.path, () => {
-        // Log unlink error if needed - omitted here to avoid possible flooding
-      });
-    }
     logger.error('Report creation failed', { error: err.message });
+
     return res.status(500).json({ error: 'Failed to create report' });
   }
 };

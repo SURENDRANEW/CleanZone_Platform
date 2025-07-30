@@ -8,17 +8,21 @@ const initializeAdmin = async () => {
   const adminExists = await User.findOne({ email: adminEmail });
   if (!adminExists) {
     const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, 12);
-    await User.create({
-      name: process.env.ADMIN_NAME,
-      email: adminEmail,
-      password: hashedPassword,
-      role: 'admin',
-      location: process.env.ADMIN_LOCATION,
-      phone: process.env.ADMIN_PHONE,
-    });
-  } 
+    try {
+      await User.create({
+        name: process.env.ADMIN_NAME,
+        email: adminEmail,
+        password: hashedPassword,
+        role: 'admin',
+        location: process.env.ADMIN_LOCATION,
+        phone: process.env.ADMIN_PHONE,
+      });
+      logger.info('Admin account created');
+    } catch (err) {
+      logger.error('Admin creation failed', { error: err.message });
+    }
+  }
 };
-
 
 const register = async (req, res) => {
   try {
@@ -31,7 +35,7 @@ const register = async (req, res) => {
       name,
       email,
       phone,
-      password, 
+      password,
       location,
       role: email === process.env.ADMIN_EMAIL ? 'admin' : 'user',
     });
@@ -51,7 +55,7 @@ const register = async (req, res) => {
         name: newUser.name,
         email: newUser.email,
         role: newUser.role,
-      }
+      },
     });
   } catch (err) {
     logger.error('Registration failed', { error: err.message, email: req.body.email });
@@ -62,12 +66,10 @@ const register = async (req, res) => {
 const login = async (req, res) => {
   try {
     const { email, password, role } = req.body;
-
     const user = await User.findOne({ email }).select('+password');
     if (!user) return res.status(400).json({ error: 'Invalid credentials' });
 
     let passwordMatched = false;
-
     if (user.role === 'admin') {
       if (password === process.env.ADMIN_PASSWORD) {
         passwordMatched = true;
@@ -77,7 +79,9 @@ const login = async (req, res) => {
     } else {
       passwordMatched = await user.comparePassword(password);
     }
+
     if (!passwordMatched) return res.status(400).json({ error: 'Invalid credentials' });
+
     if ((user.role || '').trim().toLowerCase() !== (role || '').trim().toLowerCase()) {
       return res.status(400).json({ error: 'Invalid account type' });
     }
@@ -91,15 +95,16 @@ const login = async (req, res) => {
     res.json({
       token,
       role: user.role,
-      user: { id: user._id, name: user.name, email: user.email, role: user.role }
+      user: { id: user._id, name: user.name, email: user.email, role: user.role },
     });
   } catch (err) {
-    console.error('Login error:', err);
+    logger.error('Login failed', { error: err.message });
     res.status(500).json({ error: 'Server error' });
   }
 };
 
 module.exports = { initializeAdmin, register, login };
+
 
 
 
