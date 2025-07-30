@@ -1,0 +1,298 @@
+{"endpoint":"/api/auth/login","error":"Illegal arguments: string, undefined","level":"error","message":"Login failed","timestamp":"2025-07-23T05:48:31.289Z"}
+{"endpoint":"/api/auth/login","error":"Illegal arguments: string, undefined","level":"error","message":"Login failed","timestamp":"2025-07-23T05:48:48.932Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-23T06:01:23.081Z"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"error","message":"Server startup failed","timestamp":"2025-07-23T06:01:23.162Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2025-07-23T06:03:47.358Z"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"error","message":"Server startup failed","timestamp":"2025-07-23T06:03:47.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 13:16:53"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-23 13:16:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 13:18:34"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-23 13:18:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 13:23:10"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-23 13:23:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 13:23:13"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-23 13:23:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 13:55:21"}
+{"error":"Route.post() requires a callback function but got a [object Undefined]","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-23 13:55:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:14:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 15:14:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:18:33"}
+{"error":"User validation failed: location: Please enter your location, phone: Please enter your phone number","level":"\u001b[31merror\u001b[39m","message":"Admin creation failed","timestamp":"2025-07-23 15:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:21:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account created","timestamp":"2025-07-23 15:21:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 15:21:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:34:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 15:34:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:44:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account created","timestamp":"2025-07-23 15:44:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 15:44:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:54:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 15:54:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 15:54:19"}
+{"error":"jwt malformed","level":"\u001b[31merror\u001b[39m","message":"Authentication failed","timestamp":"2025-07-23 15:59:40","token":"5c987bd6-4..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 16:08:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 16:08:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 17:11:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 17:11:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 17:12:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 17:12:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 17:13:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 17:13:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-23 17:20:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-23 17:20:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 11:37:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 11:37:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 11:43:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 11:43:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 11:47:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 11:47:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 11:48:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 11:48:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6881d0bc8f2481347421b35f","timestamp":"2025-07-24 12:04:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 12:20:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 12:20:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6881d90315a62c4eded2e77b","timestamp":"2025-07-24 12:56:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 13:12:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 13:12:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 13:17:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 13:17:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 13:18:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 13:18:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6881d0bc8f2481347421b35f","timestamp":"2025-07-24 13:29:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6881d0bc8f2481347421b35f","timestamp":"2025-07-24 13:37:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 16:54:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-24 16:54:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 16:54:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 17:00:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-24 17:00:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 17:00:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 17:05:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-24 17:05:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 17:05:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-24 17:16:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account created","timestamp":"2025-07-24 17:16:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-24 17:16:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 11:21:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-25 11:21:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 11:21:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 68831ba58f2188f8df98585d","timestamp":"2025-07-25 11:23:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:18:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account created","timestamp":"2025-07-25 15:18:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:18:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:25:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-25 15:25:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:25:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:26:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-25 15:26:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:26:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:26:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-25 15:26:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:26:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Login attempt: email=admin@cleanzone.com, role=admin","timestamp":"2025-07-25 15:28:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Password mismatch","timestamp":"2025-07-25 15:28:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Login attempt: email=h1@gmail.com, role=user","timestamp":"2025-07-25 15:29:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6883558f2c588fc9c00f3ebc","timestamp":"2025-07-25 15:30:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:39:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account already exists","timestamp":"2025-07-25 15:39:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:39:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:42:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Admin account created","timestamp":"2025-07-25 15:42:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:42:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Login attempt: email=admin@cleanzone.com, role=admin","timestamp":"2025-07-25 15:47:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Password mismatch","timestamp":"2025-07-25 15:47:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:53:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:53:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:53:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:53:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 15:54:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 15:54:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 16:15:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 16:15:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 16:33:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 16:33:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 16:34:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 16:34:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 688355b72c588fc9c00f3ec2 status changed to Pending","timestamp":"2025-07-25 16:36:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 16:40:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 16:40:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 68835883f1a903f26047e145","timestamp":"2025-07-25 17:13:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-25 17:13:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-25 17:13:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:11:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-26 15:11:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6884a3231c689438fb1d146a","timestamp":"2025-07-26 15:14:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:17:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:17:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:19:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:19:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:20:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:20:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:22:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:22:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:24:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:24:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:26:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:26:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6884a3601c689438fb1d1470 status changed to Completed","timestamp":"2025-07-26 15:27:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:31:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:31:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:31:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:31:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 15:57:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 15:57:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6884adbabad88894a03d85d4","timestamp":"2025-07-26 15:58:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6884ade5bad88894a03d85da status changed to In Progress","timestamp":"2025-07-26 16:00:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6884ade5bad88894a03d85da status changed to Resolved","timestamp":"2025-07-26 16:00:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6884a3601c689438fb1d1470 status changed to Resolved","timestamp":"2025-07-26 16:00:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 16:19:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port http://localhost:5000","timestamp":"2025-07-26 16:19:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 16:19:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-26 16:19:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 16:22:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-26 16:22:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6881d4118f2481347421b379 status changed to Resolved","timestamp":"2025-07-26 16:23:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 17:08:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-26 17:08:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New contact message received","timestamp":"2025-07-26 17:08:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New contact message received","timestamp":"2025-07-26 17:15:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New contact message received","timestamp":"2025-07-26 17:21:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-26 17:22:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-26 17:22:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 10:04:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 10:04:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6886fe4270648e8a440d54d7","timestamp":"2025-07-28 10:06:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 10:19:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 10:19:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 10:19:56"}
+{"error":"Cannot find module '../middleware/authMiddleware'\nRequire stack:\n- G:\\OneDrive\\Attachments\\Desktop\\2025\\backend\\routes\\contactRoutes.js\n- G:\\OneDrive\\Attachments\\Desktop\\2025\\backend\\app.js","level":"\u001b[31merror\u001b[39m","message":"Server startup failed","timestamp":"2025-07-28 10:19:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 10:20:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 10:20:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New contact message received","timestamp":"2025-07-28 10:57:47"}
+{"error":"bad auth : authentication failed","level":"\u001b[31merror\u001b[39m","message":"MongoDB connection error:","timestamp":"2025-07-28 11:23:22"}
+{"error":"bad auth : authentication failed","level":"\u001b[31merror\u001b[39m","message":"MongoDB connection error:","timestamp":"2025-07-28 11:29:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 11:37:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 11:37:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 68871410f08509c67e0dca25","timestamp":"2025-07-28 11:40:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 68871440f08509c67e0dca2b status changed to In Progress","timestamp":"2025-07-28 11:40:48"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.xmjtdi5.mongodb.net","level":"\u001b[31merror\u001b[39m","message":"MongoDB connection error:","timestamp":"2025-07-28 15:47:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 15:49:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 15:49:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 16:23:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 16:23:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 16:24:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 16:24:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-28 16:28:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 5000","timestamp":"2025-07-28 16:28:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 11:47:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:06:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:07:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:20:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:23:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:23:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:24:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:24:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:25:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:27:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:27:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:32:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:33:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:41:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:51:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:53:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 12:59:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:00:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:02:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:02:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:06:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:06:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:10:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:10:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:13:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:13:22"}
+{"email":"surendra@gmail.com","error":"User validation failed: phone: Please enter your phone number","level":"\u001b[31merror\u001b[39m","message":"Registration failed","timestamp":"2025-07-29 13:14:01"}
+{"email":"surendra@gmail.com","error":"User validation failed: phone: Please enter your phone number","level":"\u001b[31merror\u001b[39m","message":"Registration failed","timestamp":"2025-07-29 13:15:41"}
+{"email":"surendra1@gmail.com","error":"User validation failed: phone: Please enter your phone number","level":"\u001b[31merror\u001b[39m","message":"Registration failed","timestamp":"2025-07-29 13:18:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:21:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:21:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:30:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:30:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 68887fc44756d30baa1a2251","timestamp":"2025-07-29 13:34:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6888807a4756d30baa1a2262 status changed to Resolved","timestamp":"2025-07-29 13:34:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 68887fc44756d30baa1a2251","timestamp":"2025-07-29 13:40:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 688882034756d30baa1a2278 status changed to Resolved","timestamp":"2025-07-29 13:42:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:48:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:48:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 13:48:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 13:48:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-29 16:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-29 16:59:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 08:54:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 08:54:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 688990a4fc0c7c770abe5e7d","timestamp":"2025-07-30 08:58:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:03:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:03:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 688990a4fc0c7c770abe5e7d","timestamp":"2025-07-30 09:03:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:18:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:18:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:19:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:19:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:30:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:30:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:36:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:41:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:41:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:49:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:49:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 09:55:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 09:55:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 10:17:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 10:17:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889916efc0c7c770abe5e83 status changed to In Progress","timestamp":"2025-07-30 10:46:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889916efc0c7c770abe5e83 status changed to Resolved","timestamp":"2025-07-30 10:48:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to Resolved","timestamp":"2025-07-30 10:48:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 68871440f08509c67e0dca2b status changed to Resolved","timestamp":"2025-07-30 10:48:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to In Progress","timestamp":"2025-07-30 10:50:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to Resolved","timestamp":"2025-07-30 10:50:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to In Progress","timestamp":"2025-07-30 10:53:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to Pending","timestamp":"2025-07-30 10:59:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889916efc0c7c770abe5e83 status changed to In Progress","timestamp":"2025-07-30 10:59:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6888807a4756d30baa1a2262 status changed to In Progress","timestamp":"2025-07-30 10:59:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to In Progress","timestamp":"2025-07-30 11:02:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 11:03:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 11:03:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 11:32:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 11:32:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 688990a4fc0c7c770abe5e7d","timestamp":"2025-07-30 11:33:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889b5c66b7e4ab91fbd0e15 status changed to In Progress","timestamp":"2025-07-30 11:36:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 12:45:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 12:45:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:07:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:07:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:07:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:07:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:07:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:07:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889928e28ca16b9a7299bb4 status changed to In Progress","timestamp":"2025-07-30 13:09:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:11:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:11:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889ccc99ced2f26bd80dc39","timestamp":"2025-07-30 13:12:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:13:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Created uploads directory","timestamp":"2025-07-30 13:13:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:13:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:14:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:14:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889ccc99ced2f26bd80dc39","timestamp":"2025-07-30 13:26:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:31:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:31:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889d1a5f81966ceb86ffbea","timestamp":"2025-07-30 13:33:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889d1a5f81966ceb86ffbea","timestamp":"2025-07-30 13:35:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889d260f81966ceb86ffc0e status changed to In Progress","timestamp":"2025-07-30 13:36:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889d260f81966ceb86ffc0e status changed to Resolved","timestamp":"2025-07-30 13:36:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected successfully","timestamp":"2025-07-30 13:53:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 8080","timestamp":"2025-07-30 13:53:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889d6cea7b27ce992c28d15","timestamp":"2025-07-30 13:56:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New report created by user 6889d6cea7b27ce992c28d15","timestamp":"2025-07-30 13:58:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889d748a7b27ce992c28d2d status changed to In Progress","timestamp":"2025-07-30 14:00:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Report 6889d748a7b27ce992c28d2d status changed to Resolved","timestamp":"2025-07-30 14:00:27"}

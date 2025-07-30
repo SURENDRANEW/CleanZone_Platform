@@ -1,0 +1,121 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding-top: 56px; 
+  color: #212529;
+}
+
+.navbar {
+  background-color: rgb(2, 27, 3);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.brand-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.hero-section {
+  background-color: #07a41eda;
+  color: white;
+  padding: 3rem 1rem 4rem;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.27);
+}
+
+.carousel-inner img {
+  object-fit: none;
+}
+
+.btn-primary {
+  background-color: #10ed4f;
+  border-color: #1b5aab;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #17be1a;
+  border-color: #16447c;
+}
+
+.btn-outline-light {
+  color: white;
+  border-color: white;
+}
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  background-color: white;
+  color: #2a7ae2;
+  border-color: white;
+}
+
+.card {
+  border-radius: 0.5rem;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.card:hover {
+  box-shadow: 0 6px 18px rgba(31, 90, 184, 0.25);
+}
+
+.card img {
+  object-fit: contain;
+}
+
+footer {
+  background-color: #16a018;
+  color: white;
+  padding: 1rem 0;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+label.form-label {
+  font-weight: 600;
+}
+input.form-control, textarea.form-control {
+  border-radius: 0.3rem;
+}
+
+input.form-control:focus, textarea.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(26, 91, 255, 0.25);
+  border-color: #1a5bff;
+}
+
+.alert {
+  max-width: 450px;
+  margin: 10px auto;
+  font-size: 0.9rem;
+}
+
+form {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.report-item {
+  margin-bottom: 1rem;
+}
+.report-item h4 {
+  font-weight: 600;
+}
+.report-item p {
+  margin-bottom: 0.4rem;
+}
+
+.btn-sm {
+  font-size: 0.85rem;
+}
+
+#logo {
+  object-fit: contain;
+  height: 36px;
+  width: 36px;
+}
+
+@media (max-width: 576px) {
+  .btn-lg {
+    font-size: 1rem;
+  }
+}
