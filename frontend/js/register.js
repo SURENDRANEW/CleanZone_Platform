@@ -1,3 +1,5 @@
+const base_url= process.env.Backend_API_URL;
+
 function registerUser() {
   var name = document.getElementById('name').value.trim();
   var email = document.getElementById('email').value.trim();
@@ -15,7 +17,7 @@ function registerUser() {
     return false;
   }
 
-  fetch('http://localhost:8080/api/auth/register', {
+  fetch(`${base_url}/api/auth/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, password, phone, location })

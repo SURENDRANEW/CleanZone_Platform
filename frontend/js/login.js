@@ -1,3 +1,5 @@
+const base_url= process.env.Backend_API_URL;
+
 function loginUser() {
   var email = document.getElementById('email').value.trim();
   var password = document.getElementById('password').value.trim();
@@ -15,7 +17,7 @@ function loginUser() {
     return false;
   }
 
-  fetch('http://localhost:8080/api/auth/login', {
+  fetch(`${base_url}/api/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password, role })

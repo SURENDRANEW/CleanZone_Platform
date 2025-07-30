@@ -1,4 +1,6 @@
 
+const base_url= process.env.Backend_API_URL;
+
 function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text;
@@ -13,7 +15,7 @@ function loadAllReports() {
     return;
   }
 
-  fetch(`http://localhost:8080/api/reports/all`, {
+  fetch(`${base_url}/api/reports/all`, {
     headers: { Authorization: 'Bearer ' + token }
   })
     .then(async (response) => {
@@ -94,7 +96,7 @@ function closePhotoModal() {
 function updateStatus(reportId, newStatus) {
   if (!confirm(`Change status to '${newStatus}'?`)) return;
   const token = localStorage.getItem('token');
-  fetch(`http://localhost:8080/api/reports/${reportId}/status`, {
+  fetch(`${base_url}/api/reports/${reportId}/status`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',

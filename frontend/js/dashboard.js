@@ -1,3 +1,4 @@
+const base_url= process.env.Backend_API_URL;
 function loadReports() {
   const token = localStorage.getItem('token');
   if (!token) {
@@ -6,7 +7,7 @@ function loadReports() {
     return;
   }
 
-  fetch('http://localhost:8080/api/reports/user', {
+  fetch(`${base_url}/api/reports/user`, {
     method: 'GET',
     headers: {
       Authorization: `Bearer ${token}`
