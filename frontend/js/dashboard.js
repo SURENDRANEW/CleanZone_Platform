@@ -1,4 +1,4 @@
-const base_url= process.env.Backend_API_URL;
+
 function loadReports() {
   const token = localStorage.getItem('token');
   if (!token) {
@@ -7,7 +7,7 @@ function loadReports() {
     return;
   }
 
-  fetch(`${base_url}/api/reports/user`, {
+  fetch('https://cleanzone-platform.onrender.com/api/reports/user', {
     method: 'GET',
     headers: {
       Authorization: `Bearer ${token}`

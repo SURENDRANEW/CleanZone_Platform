@@ -1,4 +1,4 @@
-const base_url= process.env.Backend_API_URL;
+
 
 function loginUser() {
   var email = document.getElementById('email').value.trim();
@@ -17,7 +17,7 @@ function loginUser() {
     return false;
   }
 
-  fetch(`${base_url}/api/auth/login`, {
+  fetch('https://cleanzone-platform.onrender.com/api/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password, role })

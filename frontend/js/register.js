@@ -1,4 +1,4 @@
-const base_url= process.env.Backend_API_URL;
+
 
 function registerUser() {
   var name = document.getElementById('name').value.trim();
@@ -17,7 +17,7 @@ function registerUser() {
     return false;
   }
 
-  fetch(`${base_url}/api/auth/register`, {
+  fetch('https://cleanzone-platform.onrender.com/api/auth/register', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, password, phone, location })

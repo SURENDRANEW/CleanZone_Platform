@@ -1,5 +1,4 @@
 
-const base_url= process.env.Backend_API_URL;
 
 function escapeHtml(text) {
   const div = document.createElement('div');
@@ -15,7 +14,7 @@ function loadAllReports() {
     return;
   }
 
-  fetch(`${base_url}/api/reports/all`, {
+  fetch('https://cleanzone-platform.onrender.com/api/reports/all', {
     headers: { Authorization: 'Bearer ' + token }
   })
     .then(async (response) => {
@@ -96,7 +95,7 @@ function closePhotoModal() {
 function updateStatus(reportId, newStatus) {
   if (!confirm(`Change status to '${newStatus}'?`)) return;
   const token = localStorage.getItem('token');
-  fetch(`${base_url}/api/reports/${reportId}/status`, {
+  fetch(`https://cleanzone-platform.onrender.com/api/reports/${reportId}/status`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',

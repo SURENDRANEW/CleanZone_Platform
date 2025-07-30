@@ -1,4 +1,4 @@
-const base_url= process.env.Backend_API_URL;
+
 function submitReport() {
   const location = document.getElementById('location').value.trim();
   const landmark = document.getElementById('landmark').value.trim();
@@ -21,7 +21,7 @@ function submitReport() {
     window.location.href = 'login.html';
     return false;
   }
-  fetch(`${base_url}/api/reports`, {
+  fetch('https://cleanzone-platform.onrender.com/api/reports', {
     method: 'POST',
     headers: {
       Authorization: 'Bearer ' + token
