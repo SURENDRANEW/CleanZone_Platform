@@ -19,7 +19,6 @@ The project repository is organized into distinct directories to separate concer
 
 - The `backend` folder contains the server-side application, including API endpoints, database interactions, and business logic.
 - The `frontend` folder holds all client-side code, including HTML, CSS, JavaScript files, and assets that run in the user's browser.
-- The `uploads` directory stores any files uploaded through the application, such as images or documents related to projects.
 
 This structure ensures that both frontend and backend code can be developed and maintained independently while working together smoothly.
 
